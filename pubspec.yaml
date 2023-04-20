@@ -1,14 +1,23 @@
 name: simple_quran
 description: A new Flutter project.
-publish_to: 'none'
+publish_to: "none"
 version: 0.1.0
 
 environment:
-  sdk: '>=2.19.4 <3.0.0'
+  sdk: ">=2.19.4 <3.0.0"
 
 dependencies:
+  dio: ^5.1.1
+  fluent_ui: ^4.5.0
   flutter:
     sdk: flutter
+  flutter_native_splash: ^2.2.19
+  flutter_riverpod: ^2.3.5
+  flutter_screenutil: ^5.7.0
+  get_it: ^7.2.0
+  go_router: ^6.5.7
+  google_fonts: ^4.0.3
+  just_audio: ^0.9.32
 
 dev_dependencies:
   flutter_test:
@@ -17,3 +26,7 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+flutter_native_flash:
+  color: "#ffffff"
+  image: assets/logo/quran_logo.png
