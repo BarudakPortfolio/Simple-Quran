@@ -7,7 +7,11 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp.router(
-      routerConfig: AppRoutes.goRouter,
+      debugShowCheckedModeBanner: false,
+      title: 'Simple Qur\'an',
+      routeInformationParser: AppRoutes.goRouter.routeInformationParser,
+      routerDelegate: AppRoutes.goRouter.routerDelegate,
+      routeInformationProvider: AppRoutes.goRouter.routeInformationProvider,
     );
   }
 }
