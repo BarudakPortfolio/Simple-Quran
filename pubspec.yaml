@@ -8,7 +8,6 @@ environment:
 
 dependencies:
   dio: ^5.1.1
-  fluent_ui: ^4.5.0
   flutter:
     sdk: flutter
   flutter_native_splash: ^2.2.19
